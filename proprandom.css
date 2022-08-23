@@ -43,6 +43,11 @@
     border: none;
     color: white;
     margin-left: 1%;
+    transition: .5s;
+}
+
+.input button:hover {
+    background-color: #b21152;
 }
 
 .input-icon {
@@ -56,7 +61,11 @@
 .random-btn a {
     text-decoration: none;
     color: #9C0F48;
-    font-weight: 900;
+    font-weight: 1000;
+}
+
+.random-btn a:hover {
+    color: #b21152;
 }
 
 .random-btn {
@@ -103,6 +112,17 @@
     width: 100%;
     border: 1px solid rgba(0, 0, 0, 0.25);
     border-radius: 10px;
+    box-shadow: 0 8px 24px rgb(0 0 0 / 30%);
+    transition: 0.55s;
+}
+
+.card:hover {
+    /* margin-top: -10px; */
+    transform: scale(1.05);
+}
+
+.card:hover > img {
+    transform: scale(.6);
 }
 
 .card img {
@@ -129,6 +149,10 @@
 .read-more a {
     text-decoration: underline;
     color: #9C0F48;
+}
+
+.read-more a:hover {
+    color: #bf1458;
 }
 
 @media (max-width: 575px) {
